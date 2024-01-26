@@ -1,0 +1,23 @@
+@use "variables" as v;
+
+.recipe {
+  padding: 2.1em;
+
+  &__information {
+    max-width: 800px;
+  }
+  &__title {
+    font-size: 2em;
+    font-family: v.$FontFamilySerif;
+    letter-spacing: 2px;
+    line-height: 1em;
+  }
+  &__description {
+    margin-top: 1.5em;
+    font-size: 1em;
+  }
+
+  @media (min-width: 768px) {
+    margin: 0;
+  }
+}

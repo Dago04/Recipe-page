@@ -1,0 +1,32 @@
+@use "variables" as v;
+
+.preparation-time {
+  margin-top: 2.2em;
+  padding: 1.2em;
+  width: 100%;
+  background-color: v.$RoseWhite;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  &__title {
+    color: v.$DarkRaspberry;
+    font-size: 1.2em;
+    font-weight: 700;
+  }
+
+  &__list {
+    padding: 1.2em;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+  &__item {
+    padding-left: 15px;
+  }
+
+  &__detail {
+    font-weight: 700;
+  }
+}

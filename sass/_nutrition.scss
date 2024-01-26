@@ -1,0 +1,33 @@
+@use "variables" as v;
+
+.nutrition {
+  width: 100%;
+  margin-top: 2.2em;
+
+  &__title {
+    color: v.$Nutmeg;
+    font-weight: 700;
+    font-family: v.$FontFamilySerif;
+    font-size: 1.5em;
+  }
+
+  &__item {
+    padding: 0.75em 2em;
+    display: flex;
+    border-bottom: 1px solid v.$LightGrey;
+    margin-bottom: 14px;
+    margin-top: 16px;
+  }
+
+  &__item > * {
+    flex: 1;
+  }
+  &__item:nth-last-child(1) {
+    border-bottom: none;
+  }
+
+  &__ammount {
+    font-weight: 700;
+    color: v.$Nutmeg;
+  }
+}

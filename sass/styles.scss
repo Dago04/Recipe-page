@@ -1,0 +1,22 @@
+@use "initial";
+@use "variables" as v;
+@use "gallery";
+@use "recipe";
+@use "preparation";
+@use "ingredient";
+@use "instruction";
+@use "nutrition";
+.container {
+  width: 100%;
+  min-width: 375px;
+  min-height: 100vh;
+  background-color: white;
+
+  @media (min-width: 768px) {
+    width: 621px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 12px;
+  }
+}

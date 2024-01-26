@@ -1,0 +1,25 @@
+@use "variables" as v;
+
+.instructions {
+  width: 100%;
+  margin-top: 2.2em;
+  border-bottom: 1px solid v.$LightGrey;
+  &__title {
+    color: v.$Nutmeg;
+    font-weight: 700;
+    font-family: v.$FontFamilySerif;
+    font-size: 1.5em;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1.2em;
+  }
+  &__item {
+    padding-left: 15px;
+  }
+  &__detail {
+    font-weight: 700;
+  }
+}
